@@ -3,9 +3,9 @@ spring:
     name: spring-boot-kotlin-STT
 
   datasource:
-    url: ${DATABASE_URL}
+    url: jdbc:postgresql://aws-1-eu-north-1.pooler.supabase.com:5432/postgres?user\=postgres.qtmqktlmcnuelobniwne
     username: "postgres"
-    password: ${POSTGRES_PASSWORD}
+    password: POSTGRES_PASSWORD=cBRghqxtqCbSlI8b
     driver-class-name: org.postgresql.Driver
 
 logging:
